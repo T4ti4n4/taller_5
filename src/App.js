@@ -1,23 +1,62 @@
-import logo from './logo.svg';
-import './App.css';
+//Ejercicio 1 Uso de CSS y className
+
+// import React from 'react';
+// import ProfileCard from './components/ProfileCard';
+
+// function App() {
+//   return (
+//     <div>
+//       <ProfileCard />
+//     </div>
+//   );
+
+// }
+
+// export default App;
+//////////////////////////////////////////////////////////////////////////
+
+//Ejercicio 2 Styled-components
+
+// import React from 'react';
+// import ProductCardStyled from './components/ProductCardStyled';
+
+// function App() {
+//   return (
+//     <div>
+//       <ProductCardStyled/>
+//     </div>
+//   );
+
+// }
+
+// export default App;
+//////////////////////////////////////////////////////////////////////////
+
+//Ejercicio 3 CSS Modules
+
+// import React from "react";
+// import Card from "./components/Card";
+
+// function App() {
+//   return (
+//     <div>
+//       <Card />
+//     </div>
+//   );
+// }
+
+// export default App;
+//////////////////////////////////////////////////////////////////////////
+
+//Ejercicio 4  Exploración de otras librerías de CSS en React
+
+import React from "react";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
     </div>
   );
 }
