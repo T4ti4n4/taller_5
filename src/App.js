@@ -1,18 +1,18 @@
 //Ejercicio 1 Uso de CSS y className
 
-// import React from 'react';
-// import ProfileCard from './components/ProfileCard';
+import React from 'react';
+import ProfileCard from './components/ProfileCard';
 
-// function App() {
-//   return (
-//     <div>
-//       <ProfileCard />
-//     </div>
-//   );
+function App() {
+  return (
+    <div>
+      <ProfileCard />
+    </div>
+  );
 
-// }
+}
 
-// export default App;
+export default App;
 //////////////////////////////////////////////////////////////////////////
 
 //Ejercicio 2 Styled-components
@@ -50,15 +50,15 @@
 
 //Ejercicio 4  Exploración de otras librerías de CSS en React
 
-import React from "react";
-import Header from "./components/Header";
+// import React from "react";
+// import Header from "./components/Header";
 
-function App() {
-  return (
-    <div>
-      <Header />
-    </div>
-  );
-}
+// function App() {
+//   return (
+//     <div>
+//       <Header />
+//     </div>
+//   );
+// }
 
-export default App;
+// export default App;
